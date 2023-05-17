@@ -1,0 +1,24 @@
+{
+    "elastic": {
+        "username": "",
+        "password": "",
+        "ip": "localhost",
+        "port": "9200"
+    },
+    "bearer_token" : "",
+    "auth_handle_creds": {
+        "consumer_key": "",
+        "consumer_secret": ""
+    },
+    "access_token": {
+        "key": "",
+        "secret": ""
+    },
+    "search_rules": {
+       "uec" : {
+	      "search_keyword" : "cve-",
+	      "search_pattern" : "cve-\\d{4}-\\d+",
+	      "make_link" : true
+       }
+    }
+}
